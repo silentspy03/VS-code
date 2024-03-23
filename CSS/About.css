@@ -1,15 +1,13 @@
-body {
-    background: linear-gradient(
-      180deg,
-      rgba(201, 241, 255, 0.5) 0%,
-      rgba(166, 227, 246, 0.5) 100%
-    );
-    
-}
 header {
     height: 100vh;
-    overflow: hidden;
-  }
+    /* overflow: hidden; */
+}
+
+.navbar{
+    font-family: "Taviraj", serif;
+    font-style: normal;
+}
+
 .nav-link::after {
     content: "";
     width: 0%;
@@ -27,12 +25,31 @@ header {
 .container h2 {
     margin-left: -18px; /* Adjust this value to reduce the gap */
 }
-.V-Famaily{
-    background-color:  rgba(201, 241, 255, 0.5);
-    height: 200px;
+.About{
+    background:  #e5e3f745;
+    height: 30%;
 }
-
-
-.grp{
-    width: 500px;
+.About-Us{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+}
+.Our-Vision{
+    margin-top: 70px;
+   margin-left: 150px;
+   line-height: 30px;
+}
+.Our-Vision h1{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-decoration: underline #b396bd29;
+} 
+.card{
+    border: none;
+}
+.Our-Story{
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
