@@ -1,2 +1,3 @@
-# VS-code
-My first repository
+
+My first repository and College assignment
+ 
