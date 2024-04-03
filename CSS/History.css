@@ -1,15 +1,18 @@
-body {
-    background: linear-gradient(
-      180deg,
-      rgba(201, 241, 255, 0.5) 0%,
-      rgba(166, 227, 246, 0.5) 100%
-    );
+* {
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
   font-size: 30px;
 }
+
+
+h2 {
+  font-size: 30px;
+}
   
+.nav-link::after {
 .nav-link::after {
     content: '';
     width: 0%;
@@ -18,6 +21,7 @@ h2 {
     display: block;
     margin: auto;
     transition: 0.5s;
+}
 }
   
   .nav-link:hover:after {
@@ -28,7 +32,6 @@ h2 {
     margin-left: -18px; /* Adjust this value to reduce the gap */
   }
   
-
 
   .medical-history-container {
     background-color: rgb(255, 255, 255);
@@ -99,16 +102,25 @@ h2 {
     color: #2d7fd6;
     text-decoration: none;
     align-self: flex-end;
-  }
+}
   
-  .view-more-button:hover {
+.view-more-button:hover {
     color: #0056b3;
-  }
+}
   
   h3 {
     font-family: 'Roboto Mono', monospace;
     font-size: 25px;
     font-weight: bold;
-  }
-  
-  
+}
+
+.About{
+  background:  #e5e3f745;
+  height: 30%;
+}
+.About-Us{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+}
